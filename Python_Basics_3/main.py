@@ -10,8 +10,17 @@
 # print (type(9//4))
 # print (8%4)
 
-print("=====")
-# math functions
-print (round(10.65))
-print (abs(-10.65))
+# print("=====")
+# # math functions
+# print (round(10.65))
+# print (abs(-10.65))
 
+# operator precedence 
+print (20-3*4)
+# ()
+# **
+# * /
+# + -
+
+
+print ((100-80)-2**4)
