@@ -1,2 +1,2 @@
 language = "python3"
-run = "python ./Python_Basics_3/variables.py"
+run = "python ./Python_Basics_3/expressions_vs_statments.py"
