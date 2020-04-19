@@ -1,2 +1,2 @@
 language = "python3"
-run = "python ./Python_Basics_3/Augmented_Assignment_Operator.py"
+run = "python ./Python_Basics_3/strings.py"
