@@ -18,20 +18,27 @@
 
 # string indexes
 
+# selfish = '01234567'
+#           #01234567
+# print(selfish[0])
+# print(selfish[7])
+# print(selfish)
+
+# # [start:stop:stepover]
+# print(selfish[0:8:3])
+
+# print(selfish[1:])
+# print(selfish[:5])
+# print(selfish[::2])
+# print('#')
+# print(selfish[-2]) # Negative index means to start from the end of the string
+# print(selfish[::-1])
+# print(selfish[::-2])
+
+
+# immutability
 selfish = '01234567'
-          #01234567
-print(selfish[0])
-print(selfish[7])
 print(selfish)
 
-# [start:stop:stepover]
-print(selfish[0:8:3])
-
-print(selfish[1:])
-print(selfish[:5])
-print(selfish[::2])
-print('#')
-print(selfish[-2]) # Negative index means to start from the end of the string
-print(selfish[::-1])
-print(selfish[::-2])
-
+selfish = selfish + '8'
+print(selfish)
