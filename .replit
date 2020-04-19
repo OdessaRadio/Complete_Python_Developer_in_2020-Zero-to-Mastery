@@ -1,2 +1,2 @@
 language = "python3"
-run = "python ./Python_Basics_3/formatted_strings.py"
+run = "python ./Python_Basics_3/buil_in_functions_methids.py"
