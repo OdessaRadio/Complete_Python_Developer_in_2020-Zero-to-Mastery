@@ -17,3 +17,6 @@ age = int(year) - int(birth_year)
 print(f'You are {age} years old')
 
 # Adding note for technical commit 1
+
+
+# Adding note for technical commit 2
