@@ -16,15 +16,4 @@ print(type(year), type(birth_year))
 age = int(year) - int(birth_year)
 print(f'You are {age} years old')
 
-# Adding note for technical commit 1
 
-
-# Adding note for technical commit 2
-
-# Adding note for technical commit 3
-
-# Adding note for technical commit 4
-
-# Adding note for technical commit 5
-
-# Adding note for technical commit 6
