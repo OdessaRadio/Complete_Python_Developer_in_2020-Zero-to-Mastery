@@ -154,9 +154,18 @@ list_2 = ['d', 'x']
 #other - variable name
 a,b,c, *other, d, e = [1,2,3,4,5,6,7,8,9] # Unpacking
 
-print(a)
-print(b)
-print(c)
-print(other)
-print(d)
-print(e)
+# print(a)
+# print(b)
+# print(c)
+# print(other)
+# print(d)
+# print(e)
+
+
+# 2_47
+# None - absence of value. Null also the absence
+
+weapons = None
+
+print(weapons)
+
