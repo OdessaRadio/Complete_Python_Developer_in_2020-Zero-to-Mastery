@@ -59,5 +59,38 @@ matrix = [
 # print(matrix[0][1])
 
 # 2_42 
-#List Methods
+# List Methods
+
+basket = [1,2,3,4,5]
+# adding
+new_list = basket.append(1000)
+
+basket.extend([100,101])
+
+basket.insert(4,100)
+print(basket)
+# print(new_list)
+
+#remkoving
+basket.pop() # removing the last element
+basket.pop(0) # removes item in the selected index. 0 here
+basket.remove(4) # removed selected value
+
+new_list = basket.remove(100)
+
+print(basket)
+print(new_list)
+
+new_list = basket.pop(4) # pop returns 4 element into new_list
+
+print(basket)
+print(new_list)
+
+new_list = basket.clear() # just clear the list. Returns nothing
+
+print(basket)
+print(new_list)
+
+#2_43
+# List Methods 2
 
