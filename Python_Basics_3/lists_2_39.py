@@ -67,7 +67,7 @@ new_list = basket.append(1000)
 
 basket.extend([100,101])
 
-basket.insert(4,100)
+basket.insert(4,100) # set position and value to insert to the list
 print(basket)
 # print(new_list)
 
@@ -108,3 +108,7 @@ print('x' in basket) # checking 'x' value in basket. returns False
 # print('i' in ',mds;lmdaslinflnfgl')
 
 print(basket.count('d')) # returns how many time value occures
+
+# 2_44
+# List Methods 3
+
