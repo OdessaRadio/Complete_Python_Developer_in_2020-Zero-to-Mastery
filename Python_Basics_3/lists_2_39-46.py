@@ -132,18 +132,31 @@ cart = ['a','x','b','c','d','e','d']
 # 2_45
 # Common List Patterns
 
-print(cart[::-1]) # creates a new object
-print(cart)
+# print(cart[::-1]) # creates a new object
+# print(cart)
 
-print(list(range(100))) # start, stop
+# print(list(range(100))) # start, stop
 
 sentence = ' '
 new_sen = sentence.join(['Hi' , 'my', 'name', 'is', 'JOJO']) # sentence takes a role of the jointer
 new_sen2 = '\''.join(['1','2','3','4','5']) # one of the ways to combine list into string
-print(sentence)
-print(new_sen)
-print(new_sen2)
+# print(sentence)
+# print(new_sen)
+# print(new_sen2)
 
 list_1 = ['a', 'b', 'c', 'e', 'z']
 list_2 = ['d', 'x']
-print( sorted(list_1+list_2))
+# print( sorted(list_1+list_2))
+
+# 2_46
+# List unpacking
+
+#other - variable name
+a,b,c, *other, d, e = [1,2,3,4,5,6,7,8,9] # Unpacking
+
+print(a)
+print(b)
+print(c)
+print(other)
+print(d)
+print(e)
