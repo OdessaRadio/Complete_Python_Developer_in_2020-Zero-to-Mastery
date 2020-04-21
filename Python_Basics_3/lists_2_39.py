@@ -78,19 +78,33 @@ basket.remove(4) # removed selected value
 
 new_list = basket.remove(100)
 
-print(basket)
-print(new_list)
+# print(basket)
+# print(new_list)
 
 new_list = basket.pop(4) # pop returns 4 element into new_list
 
-print(basket)
-print(new_list)
+# print(basket)
+# print(new_list)
 
 new_list = basket.clear() # just clear the list. Returns nothing
 
-print(basket)
-print(new_list)
+# print(basket)
+# print(new_list)
 
 #2_43
 # List Methods 2
 
+basket = ['a','b','c','d','e', 'd']
+print(basket)
+
+print(basket.index('c')) # returns index of the value
+
+print(basket.index('b',1,4)) # searching 'from' to 'to' for the value and returns index
+
+# python key word "in"
+print('d' in basket) # checking 'd' value in basket. returns True
+print('x' in basket) # checking 'x' value in basket. returns False
+
+# print('i' in ',mds;lmdaslinflnfgl')
+
+print(basket.count('d')) # returns how many time value occures
