@@ -121,11 +121,26 @@ cart = ['a','x','b','c','d','e','d']
 
 # sorted(cart)
 
-print(sorted(cart)) # "sorted" doesn't modify cart, it creates new object
-print(cart)
+# print(sorted(cart)) # "sorted" doesn't modify cart, it creates new object
+# print(cart)
 
 #print(cart.reverse()) # .reverse() doesn't return anything. ,.reverse() modifies the list
 
-cart.reverse()
+# cart.reverse()
+# print(cart)
+
+# 2_45
+# Common List Patterns
+
+print(cart[::-1]) # creates a new object
 print(cart)
+
+print(list(range(100))) # start, stop
+
+sentence = ' '
+new_sen = sentence.join(['Hi' , 'my', 'name', 'is', 'JOJO']) # sentence takes a role of the jointer
+new_sen2 = '\''.join(['1','2','3','4','5']) # one of the ways to combine list into string
+print(sentence)
+print(new_sen)
+print(new_sen2)
 
