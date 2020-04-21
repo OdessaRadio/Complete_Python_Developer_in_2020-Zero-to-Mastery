@@ -144,3 +144,6 @@ print(sentence)
 print(new_sen)
 print(new_sen2)
 
+list_1 = ['a', 'b', 'c', 'e', 'z']
+list_2 = ['d', 'x']
+print( sorted(list_1+list_2))
