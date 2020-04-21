@@ -36,6 +36,7 @@ amazon_cart[2] = 'cherry'
 
 
 new_cart = amazon_cart[:] # [:] -> slicing the list, create a copy
+#new_cart = amazon_cart.copy() -> returns new list
 new_cart[0] = 'ball'
 # print(amazon_cart)
 # print(new_cart)
@@ -68,7 +69,7 @@ new_list = basket.append(1000)
 basket.extend([100,101])
 
 basket.insert(4,100) # set position and value to insert to the list
-print(basket)
+# print(basket)
 # print(new_list)
 
 #remkoving
@@ -95,20 +96,36 @@ new_list = basket.clear() # just clear the list. Returns nothing
 # List Methods 2
 
 basket = ['a','b','c','d','e', 'd']
-print(basket)
+# print(basket)
 
-print(basket.index('c')) # returns index of the value
+# print(basket.index('c')) # returns index of the value
 
-print(basket.index('b',1,4)) # searching 'from' to 'to' for the value and returns index
+# print(basket.index('b',1,4)) # searching 'from' to 'to' for the value and returns index
 
 # python key word "in"
-print('d' in basket) # checking 'd' value in basket. returns True
-print('x' in basket) # checking 'x' value in basket. returns False
+# print('d' in basket) # checking 'd' value in basket. returns True
+# print('x' in basket) # checking 'x' value in basket. returns False
 
 # print('i' in ',mds;lmdaslinflnfgl')
 
-print(basket.count('d')) # returns how many time value occures
+# print(basket.count('d')) # returns how many time value occures
 
 # 2_44
 # List Methods 3
+
+cart = ['a','x','b','c','d','e','d']
+
+# print(cart.sort()) # .sort() method modifies the list. Returns nothing
+
+# print(cart)
+
+# sorted(cart)
+
+print(sorted(cart)) # "sorted" doesn't modify cart, it creates new object
+print(cart)
+
+#print(cart.reverse()) # .reverse() doesn't return anything. ,.reverse() modifies the list
+
+cart.reverse()
+print(cart)
 
