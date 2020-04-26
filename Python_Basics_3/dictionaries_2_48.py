@@ -63,7 +63,7 @@ dict_13 ={
 }
 
 #print(dict_12[100]) # Keys should be immutable. 
-print(dict_13['123'])
+# print(dict_13['123'])
 # Dict key should be unique!
 
 # Sictionary Methods
@@ -74,7 +74,7 @@ dict_14 ={
   'greet' : 'hello'
 }
 
-print(dict_14['basket'])
+# print(dict_14['basket'])
 
 user ={
   'basket' : [1,2,3],
@@ -82,11 +82,33 @@ user ={
   'age' : 20
 }
 
-print(user.get('age')) # Return None if no 'age'
-print(user.get('age', 55)) # If no 'age' key return 55
+# print(user.get('age')) # Return None if no 'age'
+# print(user.get('age', 55)) # If no 'age' key return 55
 
 user2 = dict(name = 'JohnJohn') # Another way to create a dict
 
-print(user2)
+# print(user2)
 
+
+# Dictionary Methods 2
+# 2_52
+
+# print('age' in user.keys())
+# print('hello' in user.values())
+
+# print('age' in user.items()) # Grabs the entire item -> returns list of tuples
+user2 = user.copy()
+user.clear() # clear does not return anything
+
+# print(user)
+# print(user2)
+
+# user2.pop('age') # returns the selected value and removes it from dict
+# print(user2)
+
+# user2.popitem() # removes last item in dict
+# print(user2)
+
+print(user2.update({'age' : 55}))
+print (user2)
 
