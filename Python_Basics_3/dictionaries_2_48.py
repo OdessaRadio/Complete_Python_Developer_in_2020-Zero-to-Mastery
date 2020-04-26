@@ -38,3 +38,31 @@ dict_10 ={
   'is_Magic' : True
 }
 
+# Dictionary Keys
+# 2_50
+
+dict_11 ={
+  123 : [1,2,3],
+  'greeting' : 'hello',
+  'is_Magic' : True
+}
+
+# print(dict_11[123])
+
+dict_12 ={
+  123 : [1,2,3],
+  True : 'hello',
+  'is_Magic' : True
+}
+
+# print(dict_12[True])
+
+dict_13 ={
+  '123' : [1,2,3],
+  '123' : 'hello'
+}
+
+#print(dict_12[100]) # Keys should be immutable. 
+print(dict_13['123'])
+# Dict key should be unique!
+
