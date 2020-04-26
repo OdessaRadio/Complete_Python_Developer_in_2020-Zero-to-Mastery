@@ -66,3 +66,27 @@ dict_13 ={
 print(dict_13['123'])
 # Dict key should be unique!
 
+# Sictionary Methods
+# 2_51
+
+dict_14 ={
+  'basket' : [1,2,3],
+  'greet' : 'hello'
+}
+
+print(dict_14['basket'])
+
+user ={
+  'basket' : [1,2,3],
+  'greet' : 'hello',
+  'age' : 20
+}
+
+print(user.get('age')) # Return None if no 'age'
+print(user.get('age', 55)) # If no 'age' key return 55
+
+user2 = dict(name = 'JohnJohn') # Another way to create a dict
+
+print(user2)
+
+
