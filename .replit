@@ -1,2 +1,7 @@
 language = "python3"
+<<<<<<< HEAD
 run = "python ./Python_section_4/Short_Circuiting_4_62.py"
+=======
+run = "python ./Python_Basics_3/sets_2_55.py"
+
+>>>>>>> f078a75a743955fe4e5116f48eac8fb123fba6e6
